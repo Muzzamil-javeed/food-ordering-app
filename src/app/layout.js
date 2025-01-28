@@ -20,10 +20,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto.variable} ${roboto.variable} antialiased`}
-      >
-        {children}
+      <body className={`${roboto.variable} ${roboto.variable} antialiased`}>
+        <main className="max-w-6xl mx-auto border">
+          {children}
+        </main>
+
       </body>
     </html>
   );
