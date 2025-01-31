@@ -11,6 +11,11 @@ export default function Header() {
                         <Link href={''}>Menu</Link>
                         <Link href={''}>About</Link>
                         <Link href={''}>Contact</Link>
+
+                    </nav>
+
+                    <nav className="flex items-center gap-4">
+                        <Link href={''} className="text-gray-500" >Register</Link>
                         <Link href={''} className="bg-primary text-white px-6 py-2 rounded-full">Login</Link>
                     </nav>
                 </div>

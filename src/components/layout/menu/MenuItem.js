@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function MenuItems() {
     return (
         <>
-            <div className="bg-gray-300 p-4 rounded-lg text-center">
+            <div className="bg-gray-300 p-4 rounded-lg text-center hover:bg-white transition-all hover:shadow-2xl">
                 <div className="text-center flex justify-center">
                     <Image src={'/pizza.png'} alt="image" width={160} height={160} className="flex justify-center" />
                 </div>
